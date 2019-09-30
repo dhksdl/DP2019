@@ -56,5 +56,139 @@
             a:focus{ color: pink; }
         </style>
         <a href="#">링크 버튼</a>
+        <style>
+            #boxmodel1{
+                background-color: #ddd;
+                width: 100px;
+                height: 200px;
+                margin: 100px; /*바깥 여백*/
+                padding: 100px; /*안쪽 여백*/
+                border: solid 1px black;/* 경계 */
+                /* 경계 : 선종류 선두꼐 선색깔*/
+            }
+        </style>
+        <div id="boxmodel1">박스모델1</div>
+        인라인 태그
+
+        <style>
+            /*하위 요소 선택자, 띄어쓰기*/
+            div li{
+                color: coral;
+            }
+            /*자식 요소 선택자. > 부등호 기호*/
+            div>ul>li{
+                text-decoration: underline;
+            }
+            /* 선택자 그룹화, 쉼표(,) */
+            div,ul,li{
+                color: blueviolet;
+                /*16진수, 0~9-A~F*/
+                color: #000; /* 3자리 컬러코드 #rgb */
+                color: #a441aa; /* 6자리 컬러코드 #rrggbb */
+                color: rgb(0,0,255); /* 0~255*/
+                color: rgb(0%,0%,100%)/* 0%~100% */
+                      }
+        </style>
+        <div style="color: blue;">
+            container
+            <ul>
+                <li>리스트1</li>
+                <li>리스트2</li>
+                <li>리스트3</li>
+                <li>리스트4</li>
+            </ul>
+        </div>
+        
+        <style>
+            .position_test{
+                background-color: #ddd;
+                /* static 정적인(기본) */
+                position: static;
+                /* absolute 절대적인 */
+                /* top, left, right, bottom 위치 조종 가능 */
+                position: absolute;
+                top: 110px;
+                left: 100px;   
+                /* fixed 고정된 */
+                position: fixed;       
+            }
+        </style>
+        <div class="position_test">
+                position_test
+        </div>
+
+        <style>
+            .font_test{
+                font-family: "Butler", "돋움" , Dotum, "굴림" , Gulim, sans-serif;
+                /* small, large, medium */
+                font-size: 10px;
+                /* normal, bold, bolder */
+                font-weight: bolder;
+                /* normal, italic, oblique */
+                font-style: italic;
+                /* normal, small-caps */
+                font-variant: small-caps;
+                /* left, center, right */
+                /* inline 요소에만 적용됨 */
+                text-align: center;
+
+                height: 150px;
+                background-color: #ddd;
+                
+                /* none, underline, overline, line-through */
+                text-decoration: underline;
+            }
+        </style>
+        <div class="font_test">
+            SJIWDlksdf
+            container
+            font_test
+            <img width="50px" src="images/817.jpg"/>
+        </div>
+
+        <style>
+            .letter_line{
+                /* 글자 사이 간격 */
+                letter-spacing: 10px;
+                /* 줄 간격 */
+                line-height: 30px;
+                /* 들여쓰기 */
+                text-indent: 50px;
+            }
+        </style>
+        <div class="letter_line">
+            letter_line
+            과 자격을 구비한 사람이 이 계층에 들게 되고 그것이 세습신분화 되어 로마사회의 하급 지배계층으로 굳어지게 된다. 
+            초기 로마 왕국의 군사제도에서는 병사 자신의 재산으로 무장을 구입해야 했기 때문에 말을 사서 무장할 수 있을 정도
+            의 재산가만이 에퀴테스가 될 수 있었다. 후에 군제 개편에 의해 로마가 직업군인제로 바뀌면서 기병이라는 의미보다는
+             큰 재산을 지닌 사회적 지배계급으로서의 의미가 강해지게 되는데, 사실 그 이전부터 군대의 규모가 커짐에 따라 에
+             퀴테스가 아닌 일반 부유평민들이 기병으로 대거 들어오면서 기병으로서의 정체성이 많이 흐려지게 된 반면, 군대 내 
+             여러 장교직들을 거의 배타적으로 맡게되는등 아래 평민신분들과는 차별화된 우대를 받았으며 이외에도 사회적으로는 
+             상업이나 광업등의 사업을 대규모로 운영하며 큰 부를 축적했기 때문이다. 또한 에퀴테스들은 자신들의 튜닉에 좁은 띠
+             로 자수를 놓아 신분을
+        </div>
+
+        <style>
+            .text-transform{
+                /* none : 일반
+                   UPPERCASE : 대문자로
+                   lowercase : 소문자로
+                   Capitalize : 첫글자 대문자 */
+                text-transform: lowercase;
+            }
+        </style>
+        <div class="text-transform">
+            fjdsjjKJKLjkjl
+        </div>
+
+        <style>
+            .pre{
+                white-space: pre;
+            }
+        </style>
+        <div class="pre">
+            1 2 3      4 5 6
+            7 8 9 0
+        </div>
     </body>
 </html>
