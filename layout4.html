@@ -29,8 +29,12 @@
             header li{
                 float: left;
                 list-style: none;
-                padding: 35px 50px;
+                padding: 80px 50px;
                 font-size: 16px;
+            }
+            a{
+                color: #1c2c56;
+                text-decoration: none;
             }
             section li{
                 list-style: none;
@@ -56,7 +60,7 @@
                 position: fixed;
             }
             .clear {clear:both; height:0; overflow:hidden;}
-            .box{
+            .explain{
                 float: right;
                 margin: 50px 40px 0px 10px;
                 width: 600px;
@@ -64,7 +68,7 @@
                 background-color: #003f86;
                 padding: 0px 40px 0px 0px;
             }
-            .aa{
+            .last_images{
                 position: relative;
                 z-index: 2;
                 width: 1900;
@@ -75,20 +79,23 @@
                 background-color: #353333;
                 padding: 30px 50px;
             }
+            nav ul{
+                margin: 0px;
+            }
         </style>
     </head>
     <body>
         <div id="wrap">
 
             <header>
-                <h1 type="button" onclick="window.location.href='layout4.html'">PEIK</h1>
+                <h1>PEIK</h1>
                 <nav>
                     <ul>
-                        <li type="button" onclick="window.location.href='index.html'">index</li>
-                        <li type="button" onclick="window.location.href='layout1.html'">layout1</li>
-                        <li type="button" onclick="window.location.href='layout2.html'">layout2</li>
-                        <li type="button" onclick="window.location.href='layout3.html'">layout3</li>
-                        <li type="button" onclick="window.location.href='layout4.html'">layout4</li>
+                        <li><a href="index.html" title="index로 이동합니다.">index</a></li>
+                        <li><a href="layout1.html" title="layout1로 이동합니다.">layout1</a></li>
+                        <li><a href="layout2.html" title="layout2로 이동합니다.">layout2</a></li>
+                        <li><a href="layout3.html" title="layout3로 이동합니다.">layout3</a></li>
+                        <li><a href="layout4.html" title="layout4로 이동합니다.">layout4</a></li>
                         <div class="clear"></div>
                     </ul>
                 </nav>
@@ -98,10 +105,10 @@
             <section>
                 <ul>
                     <li>
-                        <img src="images/i1.png"/>
-                        <div class="box">
+                        <img src="images/i1.png" alt="히말라야 산맥"/>
+                        <div class="explain">
                             <dl>
-                                <dt>히말라야</dt>
+                                <dt>히말라야 산맥</dt>
                                 <dd>히말라야산맥(─山脈)은 아시아의 산맥으로 인도 아대륙과 티베트고원 사이에 놓여 있다. 넓게는 히말라야산맥과 이어진 카라코람산맥과 힌두쿠시산맥 및 파미르고원의 여러 산맥을 포함해서 말하기도 한다. 
                                     에베레스트산을 비롯한 14 개의 8000미터 봉우리가 모두 이곳에 모여 있다. 히말라야산맥 바깥에서 가장 높은 산은 안데스산맥에 있는 6,959 m의 아콩카과산이므로, 
                                     7,000m가 넘는 산들은 모두 히말라야산맥에 속하므로, '세계의 지붕'이라 일컬어지는 곳이다. 히말라야는 산스크리트어로 "눈이 사는 곳"이란 뜻이다.</dd>
@@ -109,8 +116,8 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/i2.png"/>
-                        <div class="box">
+                        <img src="images/i2.png" alt="시드니 오페라 하우스"/>
+                        <div class="explain">
                         <dl>
                             <dt>시드니 오페라 하우스</dt>
                             <dd>1973년 10월 20일에 문을 연 시드니 오페라 하우스(영어: Sydney Opera House)는 오스트레일리아 뉴사우스웨일스주 시드니에 있는 공연장이다. 
@@ -121,8 +128,8 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/i3.png"/>
-                        <div class="box">
+                        <img src="images/i3.png" alt="만리장성"/>
+                        <div class="explain">
                             <dl>
                                 <dt>만리장성</dt>
                                 <dd>만리장성(중국어 정체자: 萬里長城, 간체자: 万里长城, 병음: Wànlĭ Chángchéng 완리창청[*])은 흉노족 등의 유목 민족의 침입을 막기 위해 중국의 고대 진나라(시황제) 
@@ -134,7 +141,7 @@
                 </ul>
             </section>
 
-            <img class="aa" src="images/i4.png"/>
+            <img class="last_images" src="images/i4.png" 루브르 박물관/>
 
             <footer>ⓒ2019221008 LEE WANYI</footer>
 
